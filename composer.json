@@ -2,6 +2,7 @@
     "name": "phpiando/toonify",
     "description": "A PHP library to convert between JSON and TOON format for optimized LLM data exchange.",
     "type": "library",
+    "version": "1.0.0",
     "license": "MIT",
     "keywords": [
         "toon",
