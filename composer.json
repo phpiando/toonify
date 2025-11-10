@@ -1,0 +1,30 @@
+{
+    "name": "phpiando/toonify",
+    "description": "A PHP library that converts JSON to TOON and TOON to JSON, designed to optimize data exchange for LLMs",
+    "type": "library",
+    "keywords": ["json", "toon", "llm", "data-exchange", "optimization", "encoding"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "phpiando",
+            "email": "contact@phpiando.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phpiando\\Toonify\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Phpiando\\Toonify\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable"
+}
